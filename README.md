@@ -5,7 +5,7 @@ This repository contains the page for two main resources for the Spanish legal d
 
 The repository and the pre-print will be updated with larger models, evaluations, ...
 
-## Why?
+## Why❓
 There are two main models made specifically for the Spanish language, the [BETO model](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased) and a [GPT-2](https://huggingface.co/datificate/gpt2-small-spanish).
 There is also a multilingual BERT (mBERT) that is often used as it might be better sometimes.
 
@@ -14,10 +14,10 @@ The data used for training both models might be various but the amount is not en
 Furthermore, training a BERT-like domain-specific model is better as it effectively covers the vocabulary and understands the legal jargon.
 We present our models trained on 9GB that are specifically of the legal domain.
 
-## Evaluation
+## Evaluation ✅
 _Work in progress._
 
-## Corpora
+## Corpora 📃
 | Corpus name                                   | Size (GB) | Tokens (M) |
 |-----------------------------------------------|-----------|------------|
 | Procesos Penales                              |     0.625 |      0.119 |
@@ -38,20 +38,20 @@ _Work in progress._
 | Biomedical Patents                            |     0.083 |          - |
 
 
-## Usage example
+## Usage example ⚗️
 You can train your model for different downstream tasks using the scripts that Hugging Face provides ([Name Entity Recognition](https://github.com/huggingface/transformers/blob/master/examples/pytorch/token-classification/run_ner.py), [GLUE tasks](https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py) and [others](https://github.com/huggingface/transformers/tree/master/examples/pytorch))
 
 ```python
 print("TBA")
 ```
 
-## Cite
+## Cite 📣
 If this work is helpful, please cite it:
 ```
 TBA
 ```
 
-## Contact
-We are interested in (1) extending our corpora to make larger models (2) evaluate/train the model in other tasks.
+## Contact 📧
+📋 We are interested in (1) extending our corpora to make larger models (2) evaluate/train the model in other tasks.
 
 For questions regarding this work, contact Asier Gutiérrez-Fandiño (<asier.gutierrez@bsc.es>)
