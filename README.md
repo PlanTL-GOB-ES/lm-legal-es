@@ -29,7 +29,7 @@ _Work in progress._
 | Abogacía del Estado BOE                       |     0.037 |      6.123 |
 | Consejo de Estado: Dictámenes                 |     0.827 |    135.348 |
 | Spanish EURLEX                                |     0.001 |      0.072 |
-| UN Resolutions                                |     0.023 |       3539 |
+| UN Resolutions                                |     0.023 |      3.539 |
 | Spanish DOGC                                  |     0.826 |    132.569 |
 | Spanish MultiUN                               |     2.200 |    352.653 |
 | Consultas Tributarias Generales y Vinculantes |     0.466 |     77.691 |
