@@ -1,6 +1,6 @@
 # Spanish legal domain Language Model ⚖️
 This repository contains the page for two main resources for the Spanish legal domain:
-- A RoBERTa model: https://huggingface.co/BSC-TeMU/RoBERTalex
+- A RoBERTa model: https://huggingface.co/PlanTL-GOB-ES/RoBERTalex
 - FastText embeddings: https://zenodo.org/record/5036147
 
 The repository and the pre-print will be updated with larger models, evaluations, ...
