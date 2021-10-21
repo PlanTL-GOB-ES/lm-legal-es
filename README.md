@@ -2,6 +2,7 @@
 This repository contains the page for two main resources for the Spanish legal domain:
 - A RoBERTa model: https://huggingface.co/PlanTL-GOB-ES/RoBERTalex
 - FastText embeddings: https://zenodo.org/record/5036147
+- Legal corpora: https://zenodo.org/record/5495529#.YXFlr577SUk
 
 The repository and the pre-print will be updated with larger models, evaluations, ...
 
