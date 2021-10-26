@@ -49,7 +49,14 @@ print("TBA")
 ## Cite 📣
 If this work is helpful, please cite it:
 ```
-TBA
+@misc{gutierrezfandino2021legal,
+      title={Spanish Legalese Language Model and Corpora}, 
+      author={Asier Gutiérrez-Fandiño and Jordi Armengol-Estapé and Aitor Gonzalez-Agirre and Marta Villegas},
+      year={2021},
+      eprint={2110.12201},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Contact 📧
