@@ -4,7 +4,7 @@ This repository contains the page for two main resources for the Spanish legal d
 - FastText embeddings: https://zenodo.org/record/5036147
 - Legal corpora: https://zenodo.org/record/5495529
 
-The repository and the pre-print will be updated with larger models, evaluations, ...
+*The repository and the pre-print will be updated with larger models, evaluations, etcetera.*
 
 ## Why❓
 There are few models trained for the Spanish language. Some of the models have been trained with a low resource, unclean corpora. The ones derived from the Spanish National Plan for Language Technologies are proficient solving several tasks and have been trained using large scale clean corpora. However, the Spanish Legal domain language could be think of an independent language on its own. We therefore created a Spanish Legal model from scratch trained exclusively on legal corpora.
