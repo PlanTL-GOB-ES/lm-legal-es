@@ -7,13 +7,7 @@ This repository contains the page for two main resources for the Spanish legal d
 The repository and the pre-print will be updated with larger models, evaluations, ...
 
 ## Why❓
-There are two main models made specifically for the Spanish language, the [BETO model](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased) and a [GPT-2](https://huggingface.co/datificate/gpt2-small-spanish).
-There is also a multilingual BERT (mBERT) that is often used as it might be better sometimes.
-
-Both BETO and GPT-2 models for Spanish have been trained with rather low resources, 4GB and 3GB of data respectively.
-The data used for training both models might be various but the amount is not enough to cover all domains.
-Furthermore, training a BERT-like domain-specific model is better as it effectively covers the vocabulary and understands the legal jargon.
-We present our models trained on 9GB that are specifically of the legal domain.
+There are few models trained for the Spanish language. Some of the models have been trained with a low resource, unclean corpora. The ones derived from the Spanish National Plan for Language Technologies are proficient solving several tasks and have been trained using large scale clean corpora. However, the Spanish Legal domain language could be think of an independent language on its own. We therefore created a Spanish Legal model from scratch trained exclusively on legal corpora.
 
 ## Evaluation ✅
 _Work in progress._
