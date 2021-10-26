@@ -43,7 +43,16 @@ _Work in progress._
 You can train your model for different downstream tasks using the scripts that Hugging Face provides ([Name Entity Recognition](https://github.com/huggingface/transformers/blob/master/examples/pytorch/token-classification/run_ner.py), [GLUE tasks](https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py) and [others](https://github.com/huggingface/transformers/tree/master/examples/pytorch))
 
 ```python
-print("TBA")
+from transformers import AutoModelForMaskedLM
+from transformers import AutoTokenizer, FillMaskPipeline
+from pprint import pprint
+tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/RoBERTalex')
+model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/RoBERTalex')
+model.eval()
+pipeline = FillMaskPipeline(model, tokenizer_hf)
+text = f"¡Hola <mask>!"
+res_hf = pipeline(text)
+pprint([r['token_str'] for r in res_hf])
 ```
 
 ## Cite 📣
